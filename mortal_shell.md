@@ -12,7 +12,7 @@ graph BT
   2("
     <b>Chamber</b>
 
-    ⚔
+    👿
     Zelots (4)
     Sword and Shield Knight (1)
     
@@ -22,7 +22,7 @@ graph BT
   3("
     <b>Crypt 1</b>
 
-    ⚔
+    👿
     Shades (2)
 
     🎁
@@ -34,7 +34,7 @@ graph BT
   4("
     <b>Bridge</b>
     
-    ⚔
+    👿
     Skull Knight (1)
     Zelots (2)
 
