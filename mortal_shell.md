@@ -70,6 +70,7 @@ graph BT
     2 --- 3
     2 --- 4
     4 --- 5
+  end
   subgraph "Monument of Ash"
     5 --- 6
     6 --- 7
