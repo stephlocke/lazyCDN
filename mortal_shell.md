@@ -3,60 +3,73 @@ graph BT
   class A cssClass
 
   1(["
-    <b>Temple</b>
+    <b>Entrance</b>
 
     💬
     Genessa
-    Forge
+    Anvil
+    Book
+
+    🎁
+    Smouldering Mace
     "])
   2("
     <b>Chamber</b>
 
     👿
-    Zelots (4)
-    Sword and Shield Knight (1)
+    Acolyte of Ash (4)
+    Herald of Faith (1)
     
     🎁
     Weltcap (1)
     ")
   3("
-    <b>Crypt 1</b>
+    <b>Tomb 1</b>
 
     👿
-    Shades (2)
+    Ashen Wraith (3)
 
     🎁
-    Crypt (Glimpses?)
+    Glimpse of Affection (1)
+    Foundry Stone (1)
     
     💬
+    Tomb
     Inscription
     ")
   4("
     <b>Bridge</b>
     
     👿
-    Skull Knight (1)
-    Zelots (2)
+    Acolyte of Ignis (1)
+    Acolyte of Ash (2)
 
     💬
     Inscription
     ")
-  5(Cages)
+  5("
+    <b>Cages</b>
+
+    👿
+    Acolyte of Ignis (1)
+    Acolyte of Ash (2)
+    ")
   6(Corridor)
   7{{Locked}}
   8(Maidens)
   9(Spike Pit)
   10(Carved Stones)
   11(Stairs)
-  12(Crypt 2)
+  12(Tomb 2)
   13(Path)
-  14(Crypt 3)
+  14(Tomb 3)
   15[/Boss 1\]
 
-  1 --- 2
-  2 --- 3
-  2 --- 4
-  4 --- 5
+  subgraph "Temple Grounds"
+    1 --- 2
+    2 --- 3
+    2 --- 4
+    4 --- 5
   subgraph "Monument of Ash"
     5 --- 6
     6 --- 7
