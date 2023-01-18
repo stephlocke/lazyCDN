@@ -5,40 +5,40 @@ graph BT
   1(["
     <b>Temple</b>
 
-    fa:fa-user 
+    💬
     Genessa
     Forge
     "])
   2("
     <b>Chamber</b>
 
-    fa:fa-khanda
+    ⚔
     Zelots (4)
     Sword and Shield Knight (1)
     
-    fa:fa-cube
+    🎁
     Weltcap (1)
     ")
   3("
     <b>Crypt 1</b>
 
-    fa:fa-khanda
+    ⚔
     Shades (2)
 
-    fa:fa-cube
+    🎁
     Crypt (Glimpses?)
     
-    fa:fa-user
+    💬
     Inscription
     ")
   4("
     <b>Bridge</b>
     
-    fa:fa-khanda
+    ⚔
     Skull Knight (1)
     Zelots (2)
 
-    fa:fa-user
+    💬
     Inscription
     ")
   5(Cages)
